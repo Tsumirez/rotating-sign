@@ -6,6 +6,3 @@ letters.forEach((letter, index) =>{
 }) 
 
 radialParagraph.innerHTML = letters.join('');
-
-
-console.log(letters);
