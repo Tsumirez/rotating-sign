@@ -15,7 +15,7 @@
 p {
   position: absolute;
   text-align: center;
-  font-family: "Space Mono", monospace;
+  font: 1.5em "Space Mono", monospace;
   animation: rotate 18s linear 0s infinite;
 }
 
@@ -27,7 +27,7 @@ img {
 span {
   bottom:0;
   position: absolute;
-  height: 9em;
+  height: 9rem;
   width:1em;
   margin-left: -0.5em;
   transform-origin: bottom;
