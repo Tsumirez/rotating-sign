@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    width:16em;
+    height:16em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 5em auto;
+}
+
+p {
+  position: absolute;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  animation: rotate 18s linear 0s infinite;
+}
+
+img {
+    max-height:10em;
+    filter: brightness(1.5) saturate(0%);
+}
+
+span {
+  bottom:0;
+  position: absolute;
+  height: 9em;
+  width:1em;
+  margin-left: -0.5em;
+  transform-origin: bottom;
+}
+
+@keyframes rotate {
+    0% {transform:rotate(0deg)}
+    100% {transform:rotate(-360deg)}
+}
